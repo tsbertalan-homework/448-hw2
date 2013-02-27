@@ -61,24 +61,3 @@ a.legend(loc='best')
 f.suptitle('CBE 448, HW2, #3.7.4')
 f.savefig('hw2-374-multi.pdf')
 #plt.show()
-
-#for i, P in enumerate(P_l):
-    ## unpack the parameters into the local namespace:
-    #exec ', '.join(P) + ',  = P.values()'
-    #print P
-
-    #figs.append(plt.figure())
-    #axes.append(figs[i].add_subplot(1, 1, 1))
-    #N = []
-    #Nprev = N0
-    #for j in t:
-        #N.append(Nprev + dt * dNdt(Nprev, r, K, H, A))
-        #Nprev = N[-1]
-    #axes[i].plot(t, N)
-    #axes[i].set_title(r"$N_0 = %i$" % N0 + '\n' + r"$K=%i$, $A=%i$, $r=%.2f$, $H=%i$" % (K, A, r, H))
-    #figs[i].savefig("hw2-374-N0-%i-A%iH%iK%ir%.2f.png" % (N0, A, H, K, r))
-##plt.show()
-#
-
-
-
